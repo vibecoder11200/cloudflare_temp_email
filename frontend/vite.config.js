@@ -46,9 +46,9 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
       },
       manifest: {
-        name: 'Temp Email',
-        short_name: 'Temp Email',
-        description: 'Temp Email - Temporary Email',
+        name: 'Hangout Inbox',
+        short_name: 'Hangout Inbox',
+        description: 'Hangout Inbox',
         theme_color: '#ffffff',
         icons: [
           {
