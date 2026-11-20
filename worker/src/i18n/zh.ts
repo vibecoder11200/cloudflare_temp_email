@@ -1,6 +1,8 @@
 import { LocaleMessages } from "./type";
 
 const messages: LocaleMessages = {
+    InvalidStatisticsRangeMsg: "请选择最近或历史的有效日期，单次最多统计 30 天",
+    InvalidStatisticsGranularityMsg: "统计目前支持按天查看",
     InvalidRequestBodyMsg: "无效的请求体",
     InvalidWebhookFilterMsg: "无效的过滤规则",
     WebhookFilterEvaluationFailedMsg: "无法判断过滤规则，请检查邮件是否能正常解析",
@@ -23,6 +25,8 @@ const messages: LocaleMessages = {
     NewAddressDisabledMsg: "新建邮箱地址已禁用, 请联系管理员",
     NewAddressAnonymousDisabledMsg: "匿名用户新建邮箱地址已禁用, 请联系管理员",
     FailedCreateAddressMsg: "创建邮箱地址失败",
+    InvalidExpiresAtMsg: "无效的过期时间：必须是将来的有效日期时间",
+    AddressExpiryDisabledMsg: "未开启邮箱过期功能",
     InvalidAddressMsg: "无效的邮箱地址",
     InvalidAddressCredentialMsg: "无效的邮箱地址凭据",
     UserDeleteEmailDisabledMsg: "用户删除邮箱/邮件已禁用, 请联系管理员",
